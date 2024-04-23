@@ -7,7 +7,6 @@ public class SumXor {
         for (long i = 0L; i <= n - i; i++) {
             if ((n + i) == (n ^ i)) {
                 counter++;
-                System.err.println(n + " " + i + " " + (n ^ i));
             }
         }
         return counter;
