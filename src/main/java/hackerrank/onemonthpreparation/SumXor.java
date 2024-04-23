@@ -4,7 +4,7 @@ package hackerrank.onemonthpreparation;
 public class SumXor {
     public static long sumXor(long n) {
         long counter = 0L;
-        for (long i = 0L; i <= n - i; i++) {
+        for (long i = 0L; i <= n; i++) {
             if ((n + i) == (n ^ i)) {
                 counter++;
             }
